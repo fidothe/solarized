@@ -22,6 +22,11 @@ applied them. To apply them, simply select an existing profile from the profile
 list window on the left, or create a new profile. Then select the Solarized 
 Dark or Solarized Light preset from the "Load Presets" drop down.
 
+Make sure that your iTerm 2 profile declares it as an `xterm-256color` terminal
+or you'll have strange problems with the colors. In the "Terminal" tab of the 
+preferences for your profile, select "xterm-256color" in the "report terminal 
+type" drop-down list.
+
 Ok, I've gone crazy with iTerm2 color management but you are going to be ok.  
 Just realize two things:
 
@@ -30,7 +35,7 @@ Just realize two things:
    monitor color space, relaunch iTerm2 and it will pick up the new target 
    color space.
 
-2. The colors in iTerm2 currently cannot be device colors. They are baked in as 
+2. The colors in iTerm 2 currently cannot be device colors. They are baked in as 
    generic rgb (which, despite the name, is an actual, specific color space 
    from Apple and is used as a default just like other systems use sRGB as 
    a default). I've switch Solarized Apple Color Picker palettes to use tagged 
